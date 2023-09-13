@@ -3,30 +3,36 @@
 <head>
 <title>Andrew's Intro</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <a href="index.html"><b>Introduction</b></a>
-    <a href="games.html"><b>Games</b></a>
-    <a href="food.html"><b>Food</b></a>
+    <div class="navbar">
+      <a href="index.html"><b>Introduction</b></a>
+      <a href="games.html"><b>Games</b></a>
+      <a href="food.html"><b>Food</b></a>
+    </div>
 
-    <h1>Introduction:</h1>
 
+    <div class="animateIntro">
 
-    <img src="selfie.jpg" alt="me">
-    <dialog open>Welcome to my introduction</dialog>
-    <article>
-        <br />
-        <p> Hello, my name is <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><u>Andrew Delos Reyes</u></a> and I am 23 years old.<br />
-            I'm a Computer Science major attending CSUF, and it is my last semester here.<br />
-            I've been playing video games since I was <em>five years old</em> and still play them to this day.<br />
-            I like video games so much I've been practicing making my own games for about 2 years now.<br />
-            I hope to make a fully fleshed out high quality game that I can release on Steam as a way of giving back to the community.
-        </p>
-    </article>
+    <h1 class="introTitle">Introduction</h1>
+    <div class="intro">
+      <img class ="selfie" src="selfie.jpg" alt="me">
+      <article class="introText">
+          <br />
+          <p> Hello, my name is <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><u>Andrew Delos Reyes</u></a> and I am 23 years old.<br />
+              I'm a Computer Science major attending CSUF, and it is my last semester here.<br />
+              I've been playing video games since I was <em>five years old</em> and still play them to this day.<br />
+              I like video games so much I've been practicing making my own games for about 2 years now.<br />
+              I hope to make a fully fleshed out high quality game that I can release on Steam as a way of giving back to the community.
+          </p>
+      </article>
     
-    <table> <!--Adding a border gives me an error in the html validator-->
+   
+
+    <table class="codingLanguages"> <!--Adding a border gives me an error in the html validator-->
         <tr>
           <th>My Coding Languages Proficiencies</th>
         </tr>
@@ -56,17 +62,19 @@
         </tr> 
     </table>
 
-    <br />
-    <h2>Contact Andrew:</h2>
-    <form action="index.html">
-        <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname"><br />
-        <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname"><br />
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email"><br />
-        <input type="submit" value="Submit">
-    </form>
+      <form class = "contactForm" action="index.html">
+          <h2>Contact Andrew:</h2>
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname"><br />
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname"><br />
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email"><br />
+          <input type="submit" value="Submit">
+      </form>
+
+    </div>
+   
 </body>
 
 </html>

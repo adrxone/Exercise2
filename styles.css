@@ -1,0 +1,208 @@
+.navbar {
+  overflow: hidden;
+}
+
+.navbar a {
+  margin: 5px;
+  float: left;
+  border: 2px solid#f64c72;
+  border-radius: 30px;
+  color: #f64c72;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #2f2fa2;
+  color: white;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #f64c72;
+}
+
+body {
+  background-color: #242582;
+}
+
+.introTitle {
+  border: 2px solid#f64c72;
+  background-color: #2f2fa2;
+  padding: 5px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width:25%;
+  text-align: center;
+  position:relative;
+  animation-name: slideTextRL;
+  animation-duration: 1.75s;
+  animation-fill-mode: both;
+}
+
+.intro, .games, .food{
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  width: 30%;
+  background-color: #2f2fa2;
+  border: 2px solid#f64c72;
+  padding: 25px;
+  margin: auto;
+  position: relative;
+  animation-name: slideTextLR;
+  animation-duration: 1.75s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideTextLR {
+  from {left: -50%;}
+  to {left: 0%;}
+}
+
+@keyframes slideTextRL {
+  from {right: -50%;}
+  to {right: 0%;}
+}
+
+
+.selfie {
+  margin: auto;
+  border: 2px solid #2f2fa2;
+}
+
+.introText {
+  word-wrap: break-word;
+  font-weight: bold;
+  font-size: 17px;
+  margin: auto;
+  text-align: center;
+  padding:25px;
+}
+
+.codingLanguages {
+  justify-content: space-around;
+  flex-direction: column;
+  margin: auto;
+  border-right: 2px solid#f64c72;
+  text-align: center;
+  padding:25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.codingLanguages th {
+  font-size: 25px;
+  border-bottom: 2px solid #f64c72;
+}
+
+.codingLanguages td {
+  font-size: 17px;
+  padding: 5px;
+}
+
+.contactForm {
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: left;
+  width: 5%;
+  display: inline-table;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+
+.contactForm label {
+  font-size: 17px;
+  width: 25%;
+}
+
+.contactForm input {
+  margin: 5px 0px;
+}
+
+/* 25 unique css properties currently */
+
+.gamesContent{
+  width: 50%;
+  margin: auto;
+}
+
+.gamesContent li, .gamesContent p{
+  text-align: center;
+  font-size: 17px;
+}
+
+.gamesContent h1 {
+  text-align: center;
+  border-bottom: 2px solid #f64c72;
+}
+
+.gamesContent h3 {
+  text-align: center;
+}
+
+.gamesContent embed {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.musicSection p {
+  font-weight: bold;
+  font-size: 21px;
+  text-align: center;
+}
+
+.musicSection img, .foodContent img {
+  margin: 15px -40%;
+  width: 180%;
+  height: 180%;
+}
+
+.foodContent {
+  width: 50%;
+  margin: auto;
+}
+
+.foodContent h1 {
+  text-align: left;
+}
+
+.foodContent p {
+  text-align: left;
+  font-size: 17px;
+}
+
+.foodContent h2 {
+  text-align: left;
+  border-bottom: 2px solid #f64c72;
+}
+
+.foodContent label, .foodContent input{
+  font-size: 17px;
+  margin: 10px 0px;
+}
+
+
+
+
+
+
+
+
